@@ -42,13 +42,13 @@ getCallFrom("Ryan")
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
-func getingCallFrom (name: String) {
-    let name = "Zain"
-    print("You have got call from \(name).")
-}
-getingCallFrom("Maya")
-getingCallFrom("Sergey")
 
+
+
+
+let name = "Zain"
+
+getCallFrom(name)
 
 
 /*: question5
