@@ -59,7 +59,8 @@ func separateElements(num1: Int, num2: Int) {
     print(sum)
     let product = sum * num2
     print(product)
-    product - num1
+    let newValue = product - num1
+    print(newValue)
     
 }
 separateElements(43, num2: 42)
